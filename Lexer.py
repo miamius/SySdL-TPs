@@ -14,4 +14,4 @@ def lexer(cadena):
         #if caracter.isdigit():
        # acum = acum + caracter
             
-lexer('hola');
+lexer('holas');
