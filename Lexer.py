@@ -4,3 +4,9 @@ def lexer(cadena):
     opLog = [":=", "<", ">", ">=", "<=", "!=", "=="]
     opMat = ["+", "*", "-", "/"]
     simbolos = ["(", ")", "{", "}", ",", ";"]
+
+    acum = ""
+    for caracter in cadena:
+        if caracter.isdigit():
+            acum = acum + caracter
+            
